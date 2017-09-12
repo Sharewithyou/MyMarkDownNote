@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+    <form class="test">
+        <input type="text" name="param1">
+        <p></p>
+        <input type="hidden" name="param2" value='222'>
+        <p></p>
+        <input type="text" name="param3" readonly value="333">
+        <p></p>
+        <input type="text" name="param4" disabled value="444">
+        <p></p>
+        <select name="param5">
+            <option value="555">测试1</option>
+            <option value="666">测试2</option>
+        </select>
+        <p></p>
+        <input type="radio" name="param6" value="0"> 男
+        <input type="radio" name="param6" value="1"> 女
+        <p></p>
+        <input type="checkbox" name="param7" value="QQQ"> 好好
+        <input type="checkbox" name="param7" value="WWW"> 坏坏
+    </form>
+
+    <button>测试</button>
+    <script src="../js/jquery-3.2.1.js"></script>
+     <script src="../helper/helper.js"></script>
+    <!-- <script src="../js/json2.js"></script> -->
+
+    <script>
+        $(function(){
+            $("button").click(function(){
+                var data = $(".test").serialize();
+            })
+            
+        })
+
+    </script>
+</body>
+</html>

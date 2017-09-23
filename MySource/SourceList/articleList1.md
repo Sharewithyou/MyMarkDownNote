@@ -37,3 +37,14 @@
             string jsonParam = request.QueryString["jsonParam"];          
             return jsonParam;
         }
+
+5 , .net  构建http请求
+
+<a href="http://www.cnblogs.com/no27/p/6528700.html" target="_blank">链接地址</a>
+
+6 , api 插件及 Content-Type
+
+<a href="https://segmentfault.com/a/1190000003002851" target="_blank">链接地址</a>
+
+7 , mySql 安装教程
+<a href="http://www.cnblogs.com/sshoub/p/4321640.html" target="_blank">链接地址</a>

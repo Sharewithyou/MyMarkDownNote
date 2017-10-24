@@ -26,3 +26,10 @@ https://www.zhihu.com/question/31377141
 4，配置域名绑定
 https://www.zhihu.com/question/31377141
 >>>>>>> 16beeb766d20f93b8202c912d53579d31d4d07ef
+>>>>>>> 
+
+5，解决百度抓取的问题
+
+http://www.jarjar.cn/how-to-deploy-hexo-to-both-github-and-coding/
+
+个人域名同时绑定国内和国外

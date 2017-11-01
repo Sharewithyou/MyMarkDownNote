@@ -8,3 +8,15 @@
 
 
 2 ， 目前文章的头部需要
+
+---
+toc: true  是否显示目录
+comments: true  是否显示评论
+title: 我就是想看看自己努力奋斗的样子
+tags:  
+  - MVVM
+  - html
+categories:
+  - IOS开发
+date: 2017-09-23 22:53:00
+---
